@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="Day 4/#css">
+</head>
+<body>
+    <section>
+        <h1 style="background-color: aqua;" >This is inline styling</h1>
+        <div>
+            <p>this is internal style sheet</p>
+        </div>
+    </section>
+    <style>
+        div{
+            color: blue;
+        }
+        
+    </style>
+    <section>
+        
+            <p id="css"> paragraph is styled using id selector</p>
+            <h1 class="universe">Heading is styled using class selector</h1>
+    </section>
+    <!-- this is group selector -->
+    <main>
+        this is main tag
+        <section>
+            this is section tag
+            <div>
+                this is div tag
+            </div>
+
+        </section>
+    </main>
+
+    
+</body>
+<style>
+    .universe {
+            font:100;
+            background-color: blueviolet;
+            color: burlywood;
+        }
+    #css {
+            font-size: 10;
+            background-color: chocolate;
+            color: blanchedalmond;
+
+        }
+        /* group selector */
+        main section div{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: burlywood;
+
+        }
+        /* combinator selector >*/
+        /* descendeant selector(space) */
+        main section div{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: burlywood;
+        }
+        /* child selector(>) */
+        main >section> div{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: burlywood;
+        }
+        /* adjacent sibling selector (+)*/
+        /* general sibling selector(~) */
+        /* <!-- inline block tags --> */
+
+
+</style>
+<!-- inline-block tags -->
+<a href="">a tag</a>
+<button>button tag</button>
+<span>span tag</span>
+
+<!-- /* block tags */ -->
+
+<section class="1"> section tags</section>
+<div class="1">div tag</div>
+<main class="1">main tag</main>
+<header class="1">header tag</header>
+
+<style>
+    a, button, span{
+        background-color: black;
+        color:white;
+    }
+
+    section, div, main, header{
+        background-color: pink;
+        color:white;
+    }
+
+</style>
+</html>
