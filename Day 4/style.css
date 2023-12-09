@@ -1,0 +1,10 @@
+#motto{
+    background: scroll;
+    text-decoration: underline;
+    color: teal;
+
+}
+section.form , footer{
+    background-color:springgreen;
+    color: black;
+}
